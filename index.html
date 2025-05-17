@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+<style>
+    body{
+          margin: 0px;
+          padding: opx;
+    }
+    .ologo{
+        font-size: 1rem;
+        
+
+    }
+    .navbar{
+        display:flex;
+        justify-content: space-around;
+        background-color: antiquewhite;
+        align-items:center;
+    }
+    .menu{
+        list-style: none;
+        display:flex;
+        gap:1rem;
+    }
+    li{
+        cursor:pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    button{
+        padding: 4px;
+        background-color: blue;
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+    }
+
+</style>
 <body>
-    <h1>hello world</h1>
+  
+    <nav class="navbar">
+        <div class="logo">
+            ologo
+        </div>
+        <ul class="menu">
+            <li>Home</li>
+            <li>Search</li>
+            <li>Contact</li>
+            <li>About Us</li>
+        </ul>
+        <div>
+            <button>Login</button>
+
+        </div>
+    </nav>
 </body>
 </html>
